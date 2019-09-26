@@ -270,7 +270,7 @@ export default {
       });
     },
     delModal(items){
-      this.tempProducts = Object.assign({}, items); //將點到的地方傳入tempProducts來作為刪除的預備
+      this.tempProducts = items; //將點到的地方傳入tempProducts來作為刪除的預備
       console.log(this.tempProducts )
        $("#delProductModal").modal("show");//打開刪除模板
     },
